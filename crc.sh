@@ -1,7 +1,7 @@
 #!/bin/sh
 mkdir "./$1" && mkdir "./$1/__tests__";
 
-cp ~/.crc/templates/Component.temp "./$1/$1.tsx"
+cp ~/.crc/templates/Component.memo.temp "./$1/$1.tsx"
 cp ~/.crc/templates/index.temp "./$1/index.ts"
 cp ~/.crc/templates/styles.temp "./$1/styles.ts"
 cp ~/.crc/templates/stories.temp "./$1/$1.stories.tsx"
