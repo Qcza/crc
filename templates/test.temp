@@ -1,0 +1,14 @@
+import * as React from 'react';
+import { render, screen } from '@testing-library/react';
+import **name**, { Props } from '../**name**';
+
+describe('<**name** />', () => {
+  const props: Props = {
+
+  };
+
+  it('should render component', () => {
+    render(<**name** {...props} />);
+    expect(screen.getByTestId('**name**-component')).toBeInTheDocument();
+  });
+});

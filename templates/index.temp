@@ -1,0 +1,5 @@
+import **name**, { Props as **name**Props } from './**name**';
+import * as **name**Styles from './styles';
+
+export type { **name**Props };
+export { **name**, **name**Styles };
