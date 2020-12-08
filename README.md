@@ -16,12 +16,12 @@ __tests__/<ComponentName>.test.tsx
 cp -r <dir path> ~/.crc
 ```
 
-- make script executable
+- make the script executable
 ```shell script
 sudo chmod +x ~/.crc/crc.sh
 ```
 
-- make symlink in the `usr/local/bin` directory
+- create the symlink in the `usr/local/bin` directory
 ```shell script
 ln -s ~/.crc/crc.sh /usr/local/bin/crc
 ```
