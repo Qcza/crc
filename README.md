@@ -29,6 +29,12 @@ ln -s ~/.crc/crc.sh /usr/local/bin/crc
 ### Usage
 Run the script in the directory where the new directory with the component should be created.
 
+#### Creating component
 ```shell script
-crc <ComponentName>
+crc -n <ComponentName>
+```
+
+#### Creating component wrapped with React.memo
+```shell script
+crc -n <ComponentName> -m
 ```
