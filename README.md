@@ -10,7 +10,7 @@ __tests__/<ComponentName>.test.tsx
 
 
 ### Setup
-- cp this directory to the `~/.crc`
+- cp this repository content to the `~/.crc`
 
 ```shell script
 cp -r <dir path> ~/.crc
