@@ -8,6 +8,15 @@ styles.ts
 __tests__/<ComponentName>.test.tsx
 ```
 
+Created files are meant to use with the followed stack and vendors
+```
+Typescript
+React
+styled-components
+react-testing-library
+storybook
+```
+
 
 ### Setup
 - cp this repository content to the `~/.crc`
