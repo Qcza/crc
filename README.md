@@ -27,7 +27,7 @@ ln -s ~/.crc/crc.sh /usr/local/bin/crc
 ```
 
 ### Usage
-Run the script in the directory where the new directory with the component should be created.
+Run the script in the location where the new directory with the component should be created.
 
 #### Creating component
 ```shell script
