@@ -10,7 +10,7 @@ __tests__/<ComponentName>.test.tsx
 
 Created files are meant to use with the followed stack and vendors
 ```
-Typescript
+TypeScript
 React
 styled-components
 react-testing-library
