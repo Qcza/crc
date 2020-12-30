@@ -1,14 +1,18 @@
 import * as React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, RenderResult, screen } from '@testing-library/react';
 import **name**, { Props } from '../**name**';
 
 describe('<**name** />', () => {
+  let renderResult: RenderResult;
   const props: Props = {
 
   };
 
+  beforeEach(() => {
+    renderResult = render(<**name** {...props} />);
+  })
+
   it('should render component', () => {
-    render(<**name** {...props} />);
     expect(screen.getByTestId('**name**-component')).toBeInTheDocument();
   });
 });
