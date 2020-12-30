@@ -8,9 +8,18 @@ styles.ts
 __tests__/<ComponentName>.test.tsx
 ```
 
+Created files are meant to use with the followed stack and vendors
+```
+TypeScript
+React
+styled-components
+react-testing-library
+storybook
+```
+
 
 ### Setup
-- cp this directory to the `~/.crc`
+- cp this repository content to the `~/.crc`
 
 ```shell script
 cp -r <dir path> ~/.crc
@@ -27,8 +36,14 @@ ln -s ~/.crc/crc.sh /usr/local/bin/crc
 ```
 
 ### Usage
-Run the script in the directory where the new directory with the component should be created.
+Run the script in the location where the new directory with the component should be created.
 
+#### Creating component
 ```shell script
-crc <ComponentName>
+crc -n <ComponentName>
+```
+
+#### Creating component wrapped with React.memo
+```shell script
+crc -n <ComponentName> -m
 ```
