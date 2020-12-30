@@ -10,7 +10,7 @@ describe('<**name** />', () => {
 
   beforeEach(() => {
     renderResult = render(<**name** {...props} />);
-  })
+  });
 
   it('should render component', () => {
     expect(screen.getByTestId('**name**-component')).toBeInTheDocument();
